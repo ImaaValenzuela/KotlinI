@@ -6,7 +6,7 @@ fun main() {
 
     val randomNumber = Random.nextInt(1, 101)
     var guess: Int? = null
-    
+
     while (guess != randomNumber) {
         println("Enter your guess:")
         guess = readLine()?.toIntOrNull()
