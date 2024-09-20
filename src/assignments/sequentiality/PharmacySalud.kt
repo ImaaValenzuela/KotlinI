@@ -26,5 +26,5 @@ fun main(){
             println("El total es de $aux, pero con el descuento del 10.5% aplicado quedaría $randomNumber")
         }
     }
-    
+
 }
